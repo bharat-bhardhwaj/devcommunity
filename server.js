@@ -7,6 +7,10 @@ const app=express();
 
 connectDB();
 
+//Init  middelware
+app.use(express.json({extended:false}));
+
+
 const PORT =process.env.PORT || 5000;
 
 
