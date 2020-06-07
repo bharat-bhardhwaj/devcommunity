@@ -1,5 +1,6 @@
 {
-    "mongoURI":"mongodb+srv://bharat22:U6mQXo096nQJ5uKz@cluster0-kbce8.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://bharat22:U6mQXo096nQJ5uKz@cluster0-kbce8.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret":"klsdjflkjflksjfsljf"
 
 }
 
