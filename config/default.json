@@ -1,6 +1,8 @@
 {
     "mongoURI":"mongodb+srv://bharat22:U6mQXo096nQJ5uKz@cluster0-kbce8.mongodb.net/<dbname>?retryWrites=true&w=majority",
-    "jwtSecret":"klsdjflkjflksjfsljf"
+    "jwtSecret":"klsdjflkjflksjfsljf",
+    "githubClientID":"e96623964cda26133cc8",
+    "githubSecret":"6f808ea4f09a826a7cbd9786b687997af5f377c7"
 
 }
 
