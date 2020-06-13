@@ -6,7 +6,7 @@ import {
     GET_PROFILE,
     PROFILE_ERROR
 } from './types'
-import { profile_url } from 'gravatar';
+
 
 //get current user profiles
 
