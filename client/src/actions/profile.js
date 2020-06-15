@@ -10,6 +10,7 @@ import {
   ACCOUNT_DELETED,
   GET_PROFILES,
   GET_REPOS,
+  
 } from './types';
 
 //get current user profiles
@@ -50,9 +51,10 @@ export const getProfiles = () => async (dispatch) => {
 //get profile by id
 export const getProfilebyId = (userID) => async (dispatch) => {
   try {
+    
     const res = await axios.get(`/api/profile/user/${userID}`);
     dispatch({
-      type: GET_PROFILES,
+      type: GET_PROFILE,
       payload: res.data,
     });
   } catch (err) {
