@@ -8,7 +8,7 @@ import {
   ADD_COMMENT,
   REMOVE_COMMENT
 } from '../actions/types';
-import { addComment } from '../actions/post';
+
 const initialState = {
   posts: [],
   post: null,
